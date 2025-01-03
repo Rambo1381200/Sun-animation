@@ -12,7 +12,7 @@ background_color = (255, 255, 204)
 sun_color = (255, 204, 0)
 triangle_color = (255, 153, 51)
 
-clock = RAMBO.time.Clock()
+clock = RAMBO.time
 
 def draw_rotated_sun(x, y, size, num_triangles, angle):
     RAMBO.draw.circle(screen, sun_color, (x, y), size)
